@@ -1,0 +1,20 @@
+{
+  "name": "trungkienhelpme-marketplace",
+  "interface": {
+    "displayName": "trungkienhelpme"
+  },
+  "plugins": [
+    {
+      "name": "trungkienhelpme",
+      "source": {
+        "source": "local",
+        "path": "./plugins/trungkienhelpme"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
