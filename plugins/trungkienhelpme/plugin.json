@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "trungkienhelpme",
+  "version": "2.0.0",
+  "description": "Hướng dẫn xây và nhân bản kênh infographic từ định vị đến sản xuất bài đăng.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "trungkienhelpme",
+        "shortDescription": "Xây kênh infographic",
+        "longDescription": "Quy trình xây và nhân bản kênh infographic, gồm skill gốc cùng toàn bộ references, templates và checklists.",
+        "capabilities": [],
+        "defaultPrompt": "Giúp tôi xây một kênh infographic mới."
+      }
+    }
+  }
+}
